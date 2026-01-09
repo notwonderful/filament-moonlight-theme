@@ -28,9 +28,9 @@
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "notwonderful\\FilamentMoonlightTheme\\FilamentMoonlightThemeServiceProvider"
+        "filament": {
+            "plugins": [
+                "notwonderful\\FilamentMoonlightTheme\\MoonlightTheme"
             ]
         }
     },

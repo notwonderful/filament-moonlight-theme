@@ -14,15 +14,36 @@
 
 ## Installation
 
-Install the package via Composer:
+### 1. Install the package via Composer:
 
 ```bash
 composer require notwonderful/filament-moonlight-theme
 ```
 
-That's it! The theme will be automatically registered and applied to your Filament panels.
+### 2. Register the Plugin
 
-No additional configuration is needed! The CSS is automatically injected into your Filament panels using Filament's render hooks, ensuring it only applies in dark mode.
+In your Filament panel provider:
+
+```php 
+use notwonderful\FilamentMoonlightTheme\MoonlightTheme;
+
+public function panel(Panel $panel): Panel
+{
+    return $panel
+        // ...your existing config
+        ->plugin(MoonlightTheme::make());
+}
+```
+
+### 3. Publish and Build Assets
+
+After registering the plugin, publish and build the assets:
+
+```bash
+php artisan filament:assets
+```
+
+That's it! The theme will only apply in dark mode
 
 ## Screenshots
 
