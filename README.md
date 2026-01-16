@@ -3,7 +3,7 @@
 # 🌙 Filament Moonlight Theme
 
 ![PHP Version](https://img.shields.io/badge/PHP-8.1%2B-blue?style=for-the-badge&logo=php)
-![Filament Version](https://img.shields.io/badge/Filament-4.0%2B-FF2D20?style=for-the-badge&logo=filament)
+![Filament Version](https://img.shields.io/badge/Filament-4.0%20%7C%205.0-FF2D20?style=for-the-badge&logo=filament)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A serene dark theme for Filament PHP, inspired by the beautiful Moonlight theme for JetBrains IDEs.**
