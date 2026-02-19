@@ -187,6 +187,11 @@
     cursor: not-allowed;
 }
 
+.dark .fi-btn > .fi-icon,
+.dark .fi-btn:not(.fi-outlined).fi-color > .fi-icon {
+    color: currentColor;
+}
+
 /* Forms */
 .dark .fi-input {
     background-color: var(--moonlight-background-alt);
