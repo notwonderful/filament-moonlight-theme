@@ -731,6 +731,7 @@
 
 .dark .fi-global-search-result-group-header {
     color: var(--moonlight-foreground-dim);
+    background-color: var(--moonlight-surface);
     font-weight: 600;
 }
 
