@@ -491,12 +491,6 @@
     background-color: var(--moonlight-background-alt);
 }
 
-/* Dropdowns */
-.dark .fi-dropdown {
-    background-color: var(--moonlight-background-alt);
-    border-color: var(--moonlight-border);
-}
-
 /* Dropdown Panel */
 .dark .fi-dropdown-panel,
 .dark .fi-dropdown-panel:where(.dark, .dark *) {
