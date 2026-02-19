@@ -395,11 +395,6 @@
     color: var(--moonlight-foreground-bright);
 }
 
-.dark .fi-modal-footer {
-    background-color: var(--moonlight-background-alt);
-    border-top: 1px solid var(--moonlight-border);
-}
-
 .dark .fi-modal-close-overlay {
     background-color: rgba(0, 0, 0, 0.5);
 }
