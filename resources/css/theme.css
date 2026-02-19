@@ -218,7 +218,6 @@
 .dark .fi-input-wrp textarea:focus {
     border-color: var(--moonlight-accent-4);
     border-width: 1px;
-    box-shadow: 0 0 0 3px rgba(120, 219, 255, 0.1);
     outline: none;
 }
 
